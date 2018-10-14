@@ -1,0 +1,194 @@
+/* intro-page.html */
+
+html, body, .container-fluid, .row {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(27, 33, 36);
+    background-image: url(../images/bg/bg.jpg);
+    /* background-image: linear-gradient(#99B898, #FECEAB, #FF847C, #E84A5F, #2A363B); */
+    /* background-image: linear-gradient(#f5eddb, #99c0bc); */
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#left-container {
+    width: 100%;
+    height: auto;
+
+    padding: 10px;
+
+    text-align: center;
+
+    background-color: #2A363B;
+    color: #f5eddb;
+
+}
+
+#name {
+    transition-duration: 0.4s;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+#name:hover {
+    transition-duration: 0.4s;
+    color: #99c0bc;
+}
+
+.personal-info {
+
+    margin-bottom: 50px;
+}
+
+.nav {
+    transition-duration: 0.4s;
+    color: #f5eddb;
+    font-size: 25px;
+    display: block;
+}
+
+.nav:hover,
+#arrow {
+    transition-duration: 0.4s;
+    font-size: 30px;
+    /* font-weight: 100; */
+    color: #eb9385;
+    text-decoration: none;
+}
+
+.mainNav {
+    line-height: 2;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#pic {
+    transition-duration: 0.4s;
+    width: 70%;
+    height: auto;
+
+    margin: 20px;
+
+    margin-bottom: 30px;
+
+    /* border-radius: 50%; */
+}
+
+#pic:hover {
+    transition-duration: 0.4s;
+    width: 80%;
+}
+
+#right-container {
+    background-color: white;
+    background: rgb(255,255,255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255,255,255, 0.5);
+    /* border: 1px dashed #eb9385; */
+    width: 100%;
+    height: auto;
+
+    border-radius: 10px;
+
+    padding: 35px;
+    margin: 50px;
+    margin-bottom: 80px;
+
+    text-align: center;
+
+    color: #2A363B;
+
+    overflow: scroll;
+}
+
+#title {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: #df877a;
+
+    text-align: center;
+    
+    margin-top: 5px;
+
+    text-decoration-style: 5px dashed #df877a;
+}
+
+#divider {
+    height: 1px;
+    background: radial-gradient(#df877a,rgba(255,0,0,0));
+    margin-bottom: 30px;
+}
+
+#text {
+    line-height: 3;
+}
+
+#singleArrow {
+    font-size: 18px;
+    color: #eb9385;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(27, 33, 36);
+    width:100%;
+    height: 30px;
+
+    border-top: 5px solid #405661;
+
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+/* Portfolio.html */
+.proj-img {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 10px;
+
+    box-shadow: 0 8px 6px -6px grey;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.fab.fa-github {
+    font-size: 25px;
+    color: #55a2b9;
+}
+
+.card-title {
+    transition-duration: 0.3s;
+    color: black;
+}
+
+.card-title:hover {
+    transition-duration: 0.3s;
+    color: #55a2b9;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* contact.html */
+#icons {
+    font-size: 40px;
+    margin-right: 20px;
+}
