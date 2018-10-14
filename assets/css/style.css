@@ -50,14 +50,15 @@ body {
 .nav {
     transition-duration: 0.4s;
     color: #f5eddb;
-    font-size: 25px;
+    font-size: 20px;
     display: block;
+    font-family: 'Prata', serif;
 }
 
 .nav:hover,
 #arrow {
     transition-duration: 0.4s;
-    font-size: 30px;
+    font-size: 25px;
     /* font-weight: 100; */
     color: #eb9385;
     text-decoration: none;
@@ -108,9 +109,9 @@ body {
 }
 
 #title {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 50px;
-    font-weight: bold;
+    font-family: 'Prata', serif;
+    font-size: 40px;
+    font-weight: bolder;
     color: #df877a;
 
     text-align: center;
@@ -128,6 +129,12 @@ body {
 
 #text {
     line-height: 3;
+    color: #303b52;
+}
+
+#introName {
+    font-family: 'Marcellus SC', serif;
+    color: #4e5b78;
 }
 
 #singleArrow {
@@ -142,7 +149,7 @@ body {
     width:100%;
     height: 30px;
 
-    border-top: 5px solid #405661;
+    border-top: 8px solid #4a6080;
 
     text-align: center;
     font-size: 12px;
@@ -158,8 +165,9 @@ body {
     width: 100%;
     margin: 5px;
     margin-bottom: 10px;
+    color: #303b52;
 
-    box-shadow: 0 8px 6px -6px grey;
+    box-shadow: 0 8px 6px -6px #8c8f94;
 }
 
 .card-img-top {
@@ -173,7 +181,7 @@ body {
 
 .card-title {
     transition-duration: 0.3s;
-    color: black;
+    color: #303b52;
 }
 
 .card-title:hover {
@@ -191,4 +199,10 @@ a:hover {
 #icons {
     font-size: 40px;
     margin-right: 20px;
+}
+
+#box {
+    padding-left: 32%;
+    padding-right: 32%;
+    text-align: left;
 }
