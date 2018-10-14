@@ -92,14 +92,15 @@ body {
     background: rgb(255,255,255); /* Fallback for older browsers without RGBA-support */
     background: rgba(255,255,255, 0.5);
     /* border: 1px dashed #eb9385; */
-    width: 100%;
+    width: auto;
     height: auto;
 
-    border-radius: 10px;
+    /* border-radius: 10px; */
 
     padding: 35px;
-    margin: 50px;
-    margin-bottom: 80px;
+    /* margin: auto; */
+    /* margin-bottom: 30px; */
+
 
     text-align: center;
 
