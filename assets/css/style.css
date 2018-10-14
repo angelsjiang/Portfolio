@@ -197,11 +197,16 @@ a:hover {
 
 /* contact.html */
 #icons {
-    font-size: 40px;
     margin-right: 20px;
+    font-size: 25px;
+}
+
+a#link {
+    color: #303b52;
 }
 
 #box {
+    font-size: 20px;
     padding-left: 32%;
     padding-right: 32%;
     text-align: left;
