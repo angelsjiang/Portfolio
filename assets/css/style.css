@@ -16,9 +16,14 @@ body {
     background-size: cover;
 }
 
+.ui.grid {
+    margin: 0;
+    height: 100%;
+}
+
 #left-container {
-    width: 100%;
-    height: auto;
+    /* width: 100%; */
+    /* height: auto; */
 
     padding: 10px;
 
@@ -66,7 +71,7 @@ body {
 
 .mainNav {
     line-height: 2;
-    margin-top: 50px;
+    margin-top: 18%;
     text-align: center;
 }
 
@@ -75,9 +80,11 @@ body {
     width: 70%;
     height: auto;
 
-    margin: 20px;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 10%;
 
-    margin-bottom: 30px;
+    border: 3px solid white;
 
     /* border-radius: 50%; */
 }
@@ -92,12 +99,14 @@ body {
     background: rgb(255,255,255); /* Fallback for older browsers without RGBA-support */
     background: rgba(255,255,255, 0.5);
     /* border: 1px dashed #eb9385; */
-    width: auto;
-    height: auto;
+    /* width: auto; */
+    /* height: auto; */
 
     /* border-radius: 10px; */
 
     padding: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
     /* margin: auto; */
     /* margin-bottom: 30px; */
 
@@ -129,18 +138,26 @@ body {
 }
 
 #text {
-    line-height: 3;
+    /* line-height: 3; */
     color: #303b52;
 }
 
 #introName {
     font-family: 'Marcellus SC', serif;
     color: #4e5b78;
+    font-size: 40px;
 }
 
 #singleArrow {
     font-size: 18px;
     color: #eb9385;
+}
+
+#intro {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .footer {

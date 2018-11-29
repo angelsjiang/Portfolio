@@ -6,9 +6,8 @@
     <title>Shulin Jiang's Portfolio</title>
     
     <link rel="stylesheet" text="text/css" href="./assets/css/reset.css">
-    <!-- link to bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <!-- link to semantic ui -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.0/dist/semantic.min.css">
     <!-- link to js -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -27,12 +26,11 @@
 
   <body>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3" id="left-container">
+    <div class="ui grid">
+            <div class="four wide column" id="left-container">
                 <div class="personalInfo">
-                    <img id="pic" src="./assets/images/profile/head1.jpg" alt="Shulin's profile pic" class="img-thumbnail"/>
-                    <br>
+                        <a href="./index.html"><img class="ui centered medium rounded image" id="pic" src="./assets/images/profile/head1.jpg" alt="Shulin's profile pic" class="img-thumbnail"/></a>
+                        <br>
                     <p id="name">Shulin Jiang</p>
                 </div>
             
@@ -54,10 +52,43 @@
                 </div>
             </div>
 
-            <div class="col-md-9" id="right-container">
+            <div class="twelve wide column" id="right-container">
 
                 <p id="title">Portfolio</p>
                 <section id="divider"></section>
+
+                <div class="ui three column grid">
+                    <div class="column">
+                        <div class="ui link fluid card">
+                        <div class="image">
+                            <img src="./assets/images/projects-screenshots/StarwarsRPG.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Starwars RPG</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui link fluid card">
+                        <div class="image">
+                            <img src="./assets/images/projects-screenshots/TrivialTrivia.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Trivial? Trivia!</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui link fluid card">
+                        <div class="image">
+                            <img src="./assets/images/projects-screenshots/RockPaperScissor.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">"Rock, Paper, Scissor!"</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
                 
                 <div class="row">
                     <div class="col-sm">

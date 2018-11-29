@@ -6,9 +6,8 @@
     <title>Shulin Jiang's Portfolio</title>
     
     <link rel="stylesheet" text="text/css" href="./assets/css/reset.css">
-    <!-- lin to bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <!-- link to semantic ui -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.0/dist/semantic.min.css">
     <!-- lin to fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous">
@@ -22,47 +21,46 @@
 
   <body>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3" id="left-container">
-                <div class="personalInfo">
-                    <a href="./index.html"><img id="pic" src="./assets/images/profile/head1.jpg" alt="Shulin's profile pic" class="img-thumbnail"/></a>
+    <div class="ui grid">
+        <div class="four wide column" id="left-container">
+            <div class="personalInfo">
+                    <a href="./index.html"><img class="ui centered medium rounded image" id="pic" src="./assets/images/profile/head1.jpg" alt="Shulin's profile pic" class="img-thumbnail"/></a>
                     <br>
-                    <p id="name">Shulin Jiang</p>
-                </div>
-            
-                <div class="mainNav">
-                    <a href="./intro-page.html" class="nav" value="about">
-                        About  
-                        <i class="fas fa-caret-right" id="arrow"></i>
-                    </a>
-                    <br>
-                    <a href="./portfolio.html" class="nav" value="portfolio">
-                        Portfolio  
-                        <i class="fas fa-caret-right" id="arrow"></i>
-                    </a>
-                    <br>
-                    <a href="./contact.html" class="nav" value="contact">
-                        Contact  
-                        <i class="fas fa-caret-right" id="arrow"></i>
-                    </a>
-                </div>
+                <p id="name">Shulin Jiang</p>
             </div>
-
-            <div class="col-md-9" id="right-container">
-                <p id="title">Contact</p>
-                <section id="divider"></section>
-                <br><br><br>
-                <div id="box">
-                    <p>
-                        <i class="far fa-envelope-open" id="icons"></i>angeljiang0927@gmail.com<br><br>
-                        <i class="fas fa-mobile-alt" id="icons"></i>(949)529-7482<br><br>
-                        <a id="link" href="https://www.linkedin.com/in/angel-shulin-jiang-1026987a/"><i class="fab fa-linkedin" id="icons"></i>Linkedin</a><br><br>
-                        <a id="link" href="https://github.com/higurashinatsu"><i class="fab fa-github-square" id="icons"></i>Github</a><br>
-                    </p>
-                </div>
+        
+            <div class="mainNav">
+                <a href="./intro-page.html" class="nav" value="about">
+                    About  
+                    <i class="fas fa-caret-right" id="arrow"></i>
+                </a>
+                <br>
+                <a href="./portfolio.html" class="nav" value="portfolio">
+                    Portfolio  
+                    <i class="fas fa-caret-right" id="arrow"></i>
+                </a>
+                <br>
+                <a href="./contact.html" class="nav" value="contact">
+                    Contact  
+                    <i class="fas fa-caret-right" id="arrow"></i>
+                </a>
             </div>
         </div>
+
+        <div class="twelve wide column" id="right-container">
+            <p id="title">Contact</p>
+            <section id="divider"></section>
+            <br><br><br>
+            <div id="box">
+                <p>
+                    <i class="far fa-envelope-open" id="icons"></i>angeljiang0927@gmail.com<br><br>
+                    <i class="fas fa-mobile-alt" id="icons"></i>(949)529-7482<br><br>
+                    <a id="link" href="https://www.linkedin.com/in/angel-shulin-jiang-1026987a/"><i class="fab fa-linkedin" id="icons"></i>Linkedin</a><br><br>
+                    <a id="link" href="https://github.com/higurashinatsu"><i class="fab fa-github-square" id="icons"></i>Github</a><br>
+                </p>
+            </div>
+        </div>
+
     </div>
 
 
