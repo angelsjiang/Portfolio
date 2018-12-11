@@ -9,7 +9,7 @@ html, body, .container-fluid, .row {
 
 body {
     background-color: rgb(27, 33, 36);
-    background-image: url(../images/bg/bg.jpg);
+    background-image: url(../images/bg/mountainBlur2);
     /* background-image: linear-gradient(#99B898, #FECEAB, #FF847C, #E84A5F, #2A363B); */
     /* background-image: linear-gradient(#f5eddb, #99c0bc); */
     background-repeat: repeat;
@@ -59,9 +59,9 @@ body {
 .nav {
     transition-duration: 0.4s;
     color: #f5eddb;
-    font-size: 20px;
+    font-size: 24px;
     display: block;
-    font-family: 'Prata', serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .nav:hover,
@@ -106,6 +106,7 @@ body {
     padding: 35px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 110px;
 
 
     text-align: center;
@@ -116,14 +117,15 @@ body {
 }
 
 #title {
-    font-family: 'Prata', serif;
-    font-size: 40px;
-    font-weight: bolder;
+    font-family: 'Lobster Two', cursive;
+    font-size: 60px;
+    /* font-weight: bolder; */
     color: #df877a;
 
     text-align: center;
     
-    margin-top: 5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 
     text-decoration-style: 5px dashed #df877a;
 }
@@ -188,7 +190,7 @@ div.column {
 /* contact.html */
 #icons {
     margin-right: 20px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 a#link {
@@ -197,7 +199,7 @@ a#link {
 
 #box {
     font-size: 20px;
-    padding-left: 32%;
-    padding-right: 32%;
+    padding-left: 30%;
+    padding-right: 30%;
     text-align: left;
 }

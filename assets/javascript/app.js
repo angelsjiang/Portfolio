@@ -11,6 +11,30 @@ $(document).ready( function() {
 
     });
 
+    // for popup in the in
+    $('.ui.icon.button.activating.element')
+        .popup({
+            on: "hover"
+        });
+
+    $('.far.fa-envelope-open')
+        .popup({
+            on: "hover"
+        });
     
+    $('.fas.fa-mobile-alt')
+    .popup({
+        on: "hover"
+    });
+
+    $('.fab.fa-linkedin')
+    .popup({
+        on: "hover"
+    });
+
+    $('.fab.fa-github-square')
+    .popup({
+        on: "hover"
+    });
 
 })
