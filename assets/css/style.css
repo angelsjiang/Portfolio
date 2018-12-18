@@ -179,8 +179,20 @@ a.header {
 }
 
 /* Portfolio.html */
-.ui.three.stackable.cards {
-    
+a#github-icon:hover {
+    color: black;
+}
+
+a#github-icon {
+    color: black;
+}
+
+a#web-icon {
+    color: white;
+}
+
+a#web-icon:hover {
+    color: white;
 }
 
 div.column {
